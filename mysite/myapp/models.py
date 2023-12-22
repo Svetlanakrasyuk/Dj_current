@@ -26,7 +26,7 @@ class MyModelA(models.Model):
     db_column_a = models.CharField(max_length=255, db_column='db_column_aaaaaa', help_text='this is help text')
     db_index_a = models.CharField(max_length=255, db_index=True, default='This is db_index field')
     editable_false_a = models.CharField(max_length=255)
-    date_field_a = models.DateField(unique_for_date=True, null=True)
+    date_field_a = models.DateField(null=True)
     even_a = models.IntegerField(validators=[validate_even])
     duration_a = models.DurationField()
     email_a = models.EmailField()
