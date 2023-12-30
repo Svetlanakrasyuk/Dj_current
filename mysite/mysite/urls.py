@@ -22,6 +22,8 @@ from . import settings
 
 urlpatterns = [
     path("myapp/", include("myapp.urls")),
+    path('sql_trainer/', include('sql_trainer.urls')),
+    path('sql_trainer2/', include('sql_trainer2.urls')),
     path("admin/", admin.site.urls),
 ]
 

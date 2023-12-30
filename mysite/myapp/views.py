@@ -24,7 +24,8 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         # output = Author.objects.annotate(number_books=Count('book')).values('book__name', 'number_books').filter(id=1)
-        output = Author.objects.values('name', 'book__name', number_books=Count('book'))
-        output_2 = Author.objects.values('name', 'book__name').annotate(number_books=Count('book'))
-        print(output_2)
+        # output = Author.objects.values('name', 'book__name', number_books=Count('book'))
+        # output_2 = Author.objects.values('name', 'book__name').annotate(number_books=Count('book'))
+        output = Book.objects.filter(name__exact='book1')
+        # print(output_2)
         return output

@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'sql_trainer',
     'debug_toolbar',
+    'sql_trainer2'
 ]
 
 MIDDLEWARE = [

@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Book, Supply, Trip
+
+admin.site.register(Book)
+admin.site.register(Supply)
+admin.site.register(Trip)
