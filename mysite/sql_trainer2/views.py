@@ -8,6 +8,7 @@ from .models import Author, Book, Genre, City, Client, Buy, BuyBook, Step, BuySt
 
 a = 'Не удалять'
 # внес необходимые изменения
+# внес еще изменения
 class MyView(generic.ListView):
     context_object_name = 'my_context'
     template_name = 'sql_trainer2/index.html'
