@@ -6,6 +6,7 @@ from django.views import generic
 
 from .models import Author, Book, Genre, City, Client, Buy, BuyBook, Step, BuyStep
 
+a = 'Не удалять'
 
 class MyView(generic.ListView):
     context_object_name = 'my_context'
