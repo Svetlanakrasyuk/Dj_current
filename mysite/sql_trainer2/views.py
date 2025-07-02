@@ -8,6 +8,7 @@ from .models import Author, Book, Genre, City, Client, Buy, BuyBook, Step, BuySt
 
 a = 'Не удалять'
 b = 'Не удалять 2'
+c = 'Не удалять 3'
 # внес необходимые изменения
 # внес еще изменения
 # внес дополнительные изменения
