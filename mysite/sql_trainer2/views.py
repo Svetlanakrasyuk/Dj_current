@@ -7,6 +7,7 @@ from django.views import generic
 from .models import Author, Book, Genre, City, Client, Buy, BuyBook, Step, BuyStep
 
 a = 'Не удалять'
+b = 'Не удалять 2'
 # внес необходимые изменения
 # внес еще изменения
 # внес дополнительные изменения
