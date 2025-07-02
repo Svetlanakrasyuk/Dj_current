@@ -7,7 +7,7 @@ from django.views import generic
 from .models import Author, Book, Genre, City, Client, Buy, BuyBook, Step, BuyStep
 
 a = 'Не удалять'
-
+# внес необходимые изменения
 class MyView(generic.ListView):
     context_object_name = 'my_context'
     template_name = 'sql_trainer2/index.html'
