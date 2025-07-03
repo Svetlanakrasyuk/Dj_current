@@ -15,6 +15,7 @@ c = 'Не удалять 3'
 # еще одни изменения
 # еще одни изменения 2
 # еще одни изменения 3
+# еще одни изменения 4
 class MyView(generic.ListView):
     context_object_name = 'my_context'
     template_name = 'sql_trainer2/index.html'
